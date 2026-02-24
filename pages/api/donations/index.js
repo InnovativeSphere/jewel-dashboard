@@ -1,5 +1,5 @@
 import DonationsController from "../../../backend/controllers/donationController";
-import { verifyToken } from "../../lib/auth";
+import { verifyToken } from "../../../backend/auth";
 
 export default async function handler(req, res) {
   try {

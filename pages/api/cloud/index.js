@@ -1,7 +1,7 @@
 import { createRouter } from "next-connect";
 import multer from "multer";
-import cloudinary from "../../lib/cloudinary";
-import { verifyToken } from "../../lib/auth";
+import cloudinary from "../../../backend/cloudinary";
+import { verifyToken } from "../../../backend/auth";
 
 const upload = multer({
   storage: multer.memoryStorage(),

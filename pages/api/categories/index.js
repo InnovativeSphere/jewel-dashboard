@@ -1,5 +1,5 @@
 import CategoriesController from "../../../backend/controllers/categoriesController";
-import { verifyToken } from "../../lib/auth";
+import { verifyToken } from "../../../backend/auth";
 
 export default async function handler(req, res) {
   try {

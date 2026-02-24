@@ -1,4 +1,4 @@
-import { verifyToken } from "../../lib/auth";
+import { verifyToken } from "../../../backend/auth";
 import ProjectsController from "../../../backend/controllers/projectsController";
 
 export default async function handler(req, res) {
